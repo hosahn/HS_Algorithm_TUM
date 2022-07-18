@@ -13,7 +13,7 @@ def dfs(i, j) :
     for k in range(8) :
         mx = i + x[k]
         my = j + y[k]
-        if mx >= 0 and mx < h and my >= 0 and my < w :
+        if 0 <= mx < h and 0 <= my < w :
             if field[mx][my] == 1 and visited[mx][my] == 0 :
                 visited[mx][my] = 1
                 dfs(mx, my)
