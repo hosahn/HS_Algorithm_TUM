@@ -6,7 +6,6 @@ N = int(input())
 max_heap = []
 min_heap = []
 
-field = []
 for _ in range(N) :
     num = int(input())
     if len(max_heap) == len(min_heap) :
