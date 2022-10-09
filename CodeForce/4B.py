@@ -1,7 +1,3 @@
-# d = days
-# studying time >= minTime
-# studying time <= maxTime
-
 d, sumTime = map(int, input().split())
 time_list = []
 
